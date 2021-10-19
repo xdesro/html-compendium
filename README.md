@@ -1,4 +1,4 @@
-![](https://repository-images.githubusercontent.com/419120565/569afdd1-cbb9-4fc8-90ed-a347bed35557)
+![](https://repository-images.githubusercontent.com/419120565/7519c9f7-4ffe-443c-b324-3d57cbcf6f13)
 
 # The HTML Compendium
 
