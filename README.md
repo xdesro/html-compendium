@@ -1,3 +1,5 @@
+![](https://repository-images.githubusercontent.com/419120565/569afdd1-cbb9-4fc8-90ed-a347bed35557)
+
 # The HTML Compendium
 
 This is a sample document you can copy and paste into your blog or other content to test HTML rendering and CSS cascade. It's very simple for now, containing instances of most — but not all — HTML elements in context.
