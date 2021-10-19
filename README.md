@@ -4,11 +4,11 @@ This is a sample document you can copy and paste into your blog or other content
 
 ## ⚙️ Prerequisites & Setup
 
-None, babey, this is HTML we're talkin' about.
+None, babey, this is HTML we're talkin' about. \*\*slaps roof of programming language\*\* This puppy can fit so much <del>fuckin</del> progressive enhancement in it.
 
 ## ✨ How To Use
 
-For right now, you can literally just go to the `index.html` file and copy-and-paste the contents of the `<body>` tag outta there.
+For right now, you can literally just go to the [`index.html`](https://github.com/xdesro/html-compendium/blob/main/index.html) file and copy-and-paste the contents of the `<body>` tag outta there.
 
 ## 🚧 For The Future
 
@@ -21,4 +21,4 @@ For right now, you can literally just go to the `index.html` file and copy-and-p
 
 ## 💬 Questions, Comments, Concerns, Contributing?
 
-Feel free to open an issue or [hit me up on Twitter](https://twitter.com/xdesro), I'm dangerously active and responsive on there.
+Feel free to [open an issue](https://github.com/xdesro/html-compendium/issues/new) or [hit me up on Twitter](https://twitter.com/xdesro), I'm dangerously active and responsive on there.
