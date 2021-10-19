@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    article {
+      max-width: 100%;
+    }
+    img {
+      max-width: 100%;
+    }
+    pre {
+      max-width: 100%;
+      overflow-x: scroll;
+    }
+  </style>
+  <body>
+    <article>
+      <h1>This is the title of the article</h1>
+      <p>Here is a nav element with an ordered list to kick us off:</p>
+      <nav>
+        <ol>
+          <li><a href="#inline-text-formatting">Inline Text Formatting</a></li>
+          <li>
+            <a href="#block-level-text-content">Block-Level Text Content</a>
+          </li>
+          <li><a href="#images-and-embeds">Images & Embeds</a></li>
+          <li><a href="#tables">Tables</a></li>
+        </ol>
+      </nav>
+      <section>
+        <h2 id="text-formatting">
+          <small><a href="#inline-text-formatting">§</a></small> This is a
+          secondary header. Here's where we'll talk about text stuff.
+        </h2>
+        <p>
+          A paragraph with a link in it. <a href="#">Lorem ipsum dolor</a> sit
+          amet consectetur adipisicing elit. Maxime asperiores qui modi porro
+          iusto quibusdam aut sapiente quasi nemo possimus, cum pariatur saepe
+          molestiae. Ad quia error excepturi quod explicabo!
+        </p>
+        <p>
+          A paragraph with an abbreviation in it.
+          <abbr title="For your information">FYI</abbr>, lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Esse alias voluptatum omnis dolor
+          laudantium tenetur autem natus consequuntur architecto amet qui,
+          explicabo ea obcaecati ab optio molestiae, similique maiores sed?
+        </p>
+        <h3>This is a tertiary header</h3>
+        <h4>Let's talk about inline text semantics <small>(h4 btw)</small>.</h4>
+        <p>
+          Here's a paragraph with a bunch of styling in it.
+          <span>This sentence is wrapped in a span tag.</span>
+          <code>This sentence is wrapped in a code tag.</code>
+          <em>This sentence is wrapped in an em tag.</em>
+          <strong>Let's do a strong tag next, wow!</strong>
+          <i
+            >Here's an i tag at play; these are usually used for technical terms
+            or taxonomical designations</i
+          >. If you've got a keyboard shortcut you're defining, you can use the
+          kbd tag like so: <kbd>ctrl + ⌘ + ⌥</kbd>. Here we have an example of
+          some <mark>marked or highlighted text</mark>.
+          <q>Damn, HTML is sick (this is an inline-quote element, or q tag)</q>.
+          In addition to marking text, we can also <s>strike it through</s>,
+          using either the <s>s</s> tag, or the <del>del</del> tag. If we're
+          using del, we can also use <ins>ins</ins> where appropriate to
+          semantically indicate a change in content over time. If you're
+          indicating a date or time, you can communicate that semantically with
+          the time tag, for instance
+          <time datetime="2021-01-30T08:00">8:00 January 30th, 2021</time>.
+          Lastly, let's cover the use of superscript numerals, like
+          <sup>1</sup> or <sup>69</sup>, and <em>sub</em>script numerals, like
+          <sub>420</sub> or <sub>666</sub> inline. How we lookin' so far?
+        </p>
+        <h3>This is a tertiary header</h3>
+        <p>
+          Here is a sentence that defines the phrase
+          <dfn>this particular phrase</dfn> — it uses a <code>dfn</code> tag to
+          indicate which phrase is being defined. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Magnam aut voluptas libero perferendis,
+          repellendus rem eum quas corrupti sit magni? Non sapiente ex,
+          voluptates eius libero consequuntur. Molestias, quas nesciunt.
+        </p>
+      </section>
+      <section>
+        <h2 id="block-level-text-content">
+          <small><a href="#block-level-text-content">§</a></small>
+          An <code>h2</code> about block-level text content
+          <small>(and has a side-comment that uses the small tag.)</small>
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, eum
+          sed! Molestias excepturi ut consequatur debitis voluptate voluptas
+          vitae, alias odio, sapiente dolorem fugiat voluptatum explicabo
+          laudantium optio quibusdam architecto!
+        </p>
+        <blockquote>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            optio quas veniam explicabo rerum, architecto eaque molestias ea ab
+            in debitis iure aliquid quia culpa ratione qui ad voluptate
+            suscipit!
+          </p>
+          <cite>All credit to the author</cite>
+        </blockquote>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+          laudantium pariatur iste distinctio reiciendis repellat beatae vero
+          nostrum quae atque, neque ab optio tenetur recusandae. Minima
+          explicabo provident necessitatibus delectus?
+        </p>
+        <h3>Another tertiary header</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem beatae
+          cupiditate qui! Doloribus, magni. Ut iusto at, totam, odit ex ipsa
+          quibusdam, voluptas exercitationem est sit explicabo a velit iste.
+        </p>
+        <h4>A fourth-level heading before an address.</h4>
+        <p>Here is our contact information.</p>
+        <address>
+          <p>
+            You can contact us by email at
+            <a href="mailto:#">webmaster@html.com</a>, or by snail mail at:
+          </p>
+          <div>
+            14390 Air & Space Museum Pkwy<br />
+            Ste. 320<br />
+            Chantilly, VA 20151<br />
+            United States
+          </div>
+        </address>
+        <aside>
+          <h5>Heading level 5 to kick off an aside</h5>
+          <p>
+            Here's an aside bit of content Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Ad inventore deleniti accusamus,
+            veritatis quaerat fugit facilis asperiores porro rem reprehenderit,
+            consequatur optio aperiam ut hic voluptatem odit quibusdam omnis
+            placeat.
+          </p>
+        </aside>
+        <h5>
+          Another h5 because I need a place to put an h6 and I can't skip
+          header-levels.
+        </h5>
+        <h6>
+          Okay so this is a sixth-level header element but if we're being
+          completely honest, why are you earnestly using an h6? This is tooooo
+          small!
+        </h6>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus
+          sapiente sint est ad quaerat. Eius at tempora sit magni repellendus
+          laborum eaque quo numquam consequatur amet incidunt, iste vel placeat.
+        </p>
+      </section>
+      <section>
+        <h2>On now to code samples and mathematics.</h2>
+        <h3>
+          A third-level header that comes right after a second-level header.
+        </h3>
+
+        <p>
+          Typically when representing a code sample, we use a combination of the
+          <code>&lt;pre&gt;</code> and <code>&lt;code&gt;</code> tags. The code
+          tag on its own represents inline code, short fragments of output like
+          a variable name. When we need multiple lines, and to preserve
+          indentation, we can use the <code>pre</code> (or preformatted) tag,
+          like so:
+        </p>
+        <pre><code>
+&lt;div class="wow"&gt;
+    &lt;p&gt;This is a &lt;pre&gt; tag with a nested &lt;code&gt; tag, and some divs and paragraph tags inside.&lt;/p&gt;</code>
+&lt;/div&gt;
+        </pre>
+        <p>
+          Slightly lesser-known than these, however, is the &lt;samp&gt; tag,
+          which you can use to indicate some output from a computer (as opposed
+          to input).
+        </p>
+        <samp>
+          $ error: pathspec 'feature/please-release-me-from-this-prison' did not
+          match any file(s) known to git
+        </samp>
+        <p>
+          In mathematics and programming, it's often useful to define a variable
+          — you can communicate this in HTML with the <var>var</var> tag, like I
+          just did here.
+        </p>
+      </section>
+      <section>
+        <h2>Lists, lists, lists!</h2>
+        <h3>
+          Here's a &lt;dl&gt; element. This is an h3
+          <abbr title="by the way">btw</abbr>.
+        </h3>
+        <p>
+          You can use the dl tag to represent a paired list of description terms
+          (dt), and description definitions (dd).
+        </p>
+        <dl>
+          <dt>Country (dt tag)</dt>
+          <dd>
+            Norway (dd tag). Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit.
+          </dd>
+          <dt>Region</dt>
+          <dd>
+            Central Norway. Accusantium officiis, vitae expedita doloribus
+            consectetur repudiandae magnam id.
+          </dd>
+          <dt>County</dt>
+          <dd>
+            Trøndelag. Eligendi veniam mollitia laborum aliquid error possimus,
+            aliquam illo, minus nemo aspernatur veritatis?
+          </dd>
+          <dt>District</dt>
+          <dd>
+            Dovre. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </dd>
+        </dl>
+        <h3>Next, let's have an unordered list.</h3>
+        <ul>
+          <li>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo illo
+              accusantium nihil dolor modi, sunt dolorum autem maiores
+              architecto recusandae ipsum fugiat aliquam deleniti saepe nam ex,
+              quisquam dicta rerum!
+            </p>
+          </li>
+          <li>
+            <p>
+              Ab vitae a quaerat. Ducimus molestiae sunt eaque, neque iure
+              saepe, velit quos eveniet ab assumenda nemo hic officia et commodi
+              voluptatum excepturi quod voluptate dolorum, magnam omnis ea
+              voluptatibus?
+            </p>
+          </li>
+          <li>
+            <p>
+              Officia, dolorum amet sunt id consequuntur ipsa. Veritatis nulla
+              et itaque expedita, accusantium quibusdam corporis dicta quasi
+              molestiae consequuntur debitis! Eum pariatur culpa quo itaque
+              inventore voluptate alias, consequuntur tempora?
+            </p>
+          </li>
+          <li>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              illum mollitia, tenetur pariatur a dignissimos ducimus quos fuga
+              praesentium! Placeat delectus doloremque tenetur aliquam. Cum quod
+              nulla maxime at ab!
+            </p>
+            <ul>
+              <li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                  reprehenderit corrupti aliquid, obcaecati modi nulla explicabo
+                  amet nostrum quisquam ad exercitationem, perferendis,
+                  consequuntur nihil porro asperiores rem nesciunt doloribus
+                  nobis!
+                </p>
+              </li>
+              <li>
+                <p>
+                  Dolore laboriosam numquam odio, molestias itaque vitae neque
+                  ullam aperiam enim facere magni a. Magni, nam quas, suscipit
+                  iure necessitatibus temporibus animi, nisi nemo nulla pariatur
+                  dignissimos molestias aspernatur sint!
+                </p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+          consequatur cupiditate tempora sequi minima rerum quis vitae doloribus
+          vel odit asperiores quam libero perspiciatis, praesentium qui in
+          accusantium aliquam velit!
+        </p>
+        <h3>And an ordered one.</h3>
+        <ol>
+          <li>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              quos explicabo, vel ad adipisci incidunt harum blanditiis tenetur
+              ea, minima aliquid expedita dolorum, corrupti voluptates. Id
+              cumque excepturi natus dicta!
+            </p>
+          </li>
+          <li>
+            <p>
+              Illum sint quidem, incidunt dolorum veniam nisi delectus saepe
+              architecto explicabo reprehenderit consequuntur in eum cum
+              necessitatibus numquam quisquam. Repellat soluta alias deserunt
+              sequi dolorum corrupti velit cumque? Modi, quas.
+            </p>
+          </li>
+          <li>
+            <p>
+              Veniam at rerum quas repellendus, nobis repellat obcaecati
+              doloremque, ducimus iusto, vero perferendis voluptatem. Laborum
+              nesciunt hic deleniti vero nemo eius optio dolores quo repellendus
+              doloribus. Amet eaque exercitationem quod.
+            </p>
+          </li>
+        </ol>
+        <h3>Now like a blitz of weirdo combinations of them.</h3>
+        <ul>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum vitae
+            voluptates facere possimus magnam debitis quasi quas aliquid, vero
+            incidunt consequuntur excepturi dolorum. Sapiente, iusto animi saepe
+            illum eius vitae?
+            <ol>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio necessitatibus, nesciunt quis dolor illo obcaecati
+                maxime deleniti iure repellendus ratione rerum exercitationem
+                quidem? Magnam commodi quibusdam vitae quia mollitia deserunt?
+                <ol>
+                  <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aliquid praesentium iusto eveniet facere impedit, dolor
+                    necessitatibus suscipit eos minus labore assumenda obcaecati
+                    iure quibusdam possimus molestiae odio totam reiciendis?
+                    Unde!
+                  </li>
+                </ol>
+              </li>
+              <li>
+                Aliquam architecto maxime sint neque ipsum recusandae facere nam
+                minima? Esse praesentium nobis maxime odit quos? Sit, harum. Non
+                praesentium id quia ut repudiandae quos nobis delectus dolore
+                molestiae magni.
+                <ul>
+                  <li>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Voluptates in harum sit qui sint, quis alias perspiciatis
+                    optio illo sed praesentium eum animi vero. Explicabo
+                    incidunt consequatur similique repellat eius!
+                  </li>
+                  <li>
+                    Quod vero facilis magni dolore odio ducimus nam, nostrum
+                    enim repudiandae neque minima voluptatum labore, provident,
+                    esse eveniet molestiae dolorem mollitia impedit rerum
+                    recusandae in? Voluptatum ipsam impedit voluptate beatae.
+                  </li>
+                  <li>
+                    Eos enim voluptatem dicta aliquid cumque quibusdam, et
+                    molestiae dolore consequatur saepe nostrum deserunt! Quasi,
+                    expedita rerum. Eius modi nostrum, quod ipsum, corporis
+                    quas, provident iusto explicabo officia deleniti voluptates.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2 id="images-and-embeds">
+          <small><a href="#images-and-embeds">§</a></small> Let's do a section
+          for images, embeds, multimedia, etc.
+        </h2>
+        <img src="https://source.unsplash.com/random/800x600" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          repellat quasi temporibus. Labore quae, quo nulla aspernatur
+          repellendus eligendi consectetur. Illo modi officiis incidunt
+          similique harum alias reprehenderit tempora nesciunt.
+        </p>
+        <figure>
+          <img src="https://source.unsplash.com/random/800x601" />
+          <figcaption>
+            Maybe we do a little <code>figure</code> with
+            <code>figcaption</code>? Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Quod delectus nam sed perferendis magnam dicta.
+            Magni perferendis, accusamus qui cupiditate quidem nemo temporibus
+            fugiat eveniet unde ab libero assumenda at.
+          </figcaption>
+        </figure>
+        <p>
+          <em>Let's do a horizontal rule next.</em> It's not an image, true, but
+          it could be fun! Let's try it. Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Necessitatibus, nisi vitae! Exercitationem ipsam
+          assumenda sed placeat quis tempore dolorem voluptatibus quod sint,
+          suscipit rem beatae magni fuga iste qui sunt.
+        </p>
+        <hr />
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non quam
+          quisquam, optio ducimus maxime at voluptate. Cum magni repellat nobis,
+          minus ut odio tempora? Vel sapiente repellat officia ullam
+          reprehenderit!
+        </p>
+      </section>
+      <section>
+        <h2 id="tables">
+          <small><a href="#tables">§</a></small> A table
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, fuga!
+          Voluptate inventore ratione quam aperiam exercitationem dolorum,
+          voluptatibus sapiente odit? Soluta atque sapiente laboriosam rerum
+          pariatur, a ullam facilis sint.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>lorem</th>
+              <th>ipsum</th>
+              <th>lorem</th>
+              <th>amet</th>
+              <th>adipiscing</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>consectetur</td>
+              <td>
+                Voluptate inventore ratione quam aperiam exercitationem dolorum,
+                voluptatibus sapiente odit? Soluta atque sapiente laboriosam
+                rerum pariatur, a ullam facilis sint.
+              </td>
+              <td>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+                cupiditate laborum quasi, dolorem neque ab nulla reprehenderit
+                doloribus unde iste aliquam est similique in modi animi
+                repellendus eos error corporis?
+              </td>
+              <td>consequatur</td>
+              <td>voluptate</td>
+            </tr>
+            <tr>
+              <td>vitae</td>
+              <td>alias odio</td>
+              <td>sapiente</td>
+              <td>
+                Non quam quisquam, optio ducimus maxime at voluptate. Cum magni
+                repellat nobis, minus ut odio tempora? Vel sapiente repellat
+                officia ullam reprehenderit!
+              </td>
+              <td>explicabo</td>
+            </tr>
+            <tr>
+              <td>lorem</td>
+              <td>optio</td>
+              <td>quibusdam</td>
+              <td>
+                Voluptate inventore ratione quam aperiam exercitationem dolorum,
+                voluptatibus sapiente odit? Soluta atque sapiente laboriosam
+                rerum pariatur, a ullam facilis sint.
+              </td>
+              <td>
+                Non quam quisquam, optio ducimus maxime at voluptate. Cum magni
+                repellat nobis, minus ut odio tempora? Vel sapiente repellat
+                officia ullam reprehenderit!
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </article>
+  </body>
+</html>
